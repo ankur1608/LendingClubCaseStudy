@@ -1,6 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
-
+Lending Club Case Study.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -11,38 +10,49 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+A finance company named 'Lending Club' specialises in lending various types of loans to customers. When the company receives a loan application, it has to make a decision for loan approval based on the applicant’s profile. <br>
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+There are two types of risks are associated with the bank’s decision:
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+(i) If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company.<br>
+(ii) If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company<br>
+
+Based on the dataset "loan.csv" company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Python3 and below pyhton libraries -
+- pandas: A fast, powerful, flexible and easy to use open source data analysis and manipulation tool. (To work with dataset)
+- numpy: The fundamental package for scientific computing in Python. (Math Library)
+- datetime: The datetime module supplies classes for manipulating dates and times.  
+- matplotlib: A comprehensive library for creating static, animated, and interactive visualizations in Python. (To plot graphs)
+- seaborn: A data visualization library built on top of matplotlib (To plot graphs)
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Conclusions
+DrivingFactors(or driver variables):
+- Grade :-Default Rate is high in high risk loan applicants. It would be important for LC to thoroughly vet high risk loan applications.
+- Annual Income :-Applicants from 'Low'(<=45K USD) and 'Medium'(45K-90K USD) income group have a greater share of defaulted loans.
+- Employment Length : Maximum number of defaulters have 10/10+ years of experience and 0 to 2 years of experience. Hence, LC should be take this aspect into consideration while lending loans.
+- Loan Purpose :-The top two reasons for loans are debt consolidation and credit card. Such applications should be carefully assessed.
 
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+## Acknowledgements
+This project is part of "Executive PG Programme in Machine Learning & AI" sponsed through UPGRAD with Joint collaboration of IIIT-B
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by -
+
+- Ankur Gupta (ankur.gupta1608@gmail.com)
+- Pravin Kamne (pravinkemails@gmail.com)
+
+feel free to contact us!
 
 
 <!-- Optional -->
